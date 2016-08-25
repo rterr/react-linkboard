@@ -1,0 +1,61 @@
+body {
+  font-family: monospace;
+  font-size: 1.25em;
+}
+.category {
+  text-align: left;
+  border: 2px solid slategray;
+  display: inline-block;
+  margin: 10px;
+}
+.category ul {
+  margin: 10px;
+  list-style: none;
+  padding: 0px;
+}
+.category-title {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.5em;
+  display: inline-block;
+  background-color: slategray;
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+.board {
+  border: 5px solid darkslategray;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+.board-title {
+  font-size: 2em;
+}
+#control-panel {
+  border: 5px solid firebrick;
+  padding: 10px;
+  margin: 10px;
+}
+h2 {
+  margin: 0px;
+}
+#link-control {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  border: 2px solid purple;
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+}
+#category-control {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  border: 2px solid orange;
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+}
+/*# sourceMappingURL=react-linkboard.1.0.0.css.map */
